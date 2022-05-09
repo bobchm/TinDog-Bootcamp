@@ -8,6 +8,13 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
 h3 {
     font-weight: 900;
     font-size: 1.5rem;
@@ -19,7 +26,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -50,11 +57,18 @@ h3 {
 
 /* Title Image */
 .title-image {
-    width: 60%;
+    width: 22%;
     transform: rotate(25deg);
+    position:absolute;
+    right: 25%;
 }
 
 /* Features */
+.feature-container {
+    background-color: white;
+    position: relative;
+}
+
 .feature-field {
     text-align: center;
     padding: 0 0 50px 0;
@@ -71,4 +85,93 @@ h3 {
 
 .feature-slogan {
     color:#8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to Action Section */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: white;
+    padding: 50px 50px 75px 50px;
+}
+
+.cta-text {
+    padding-bottom: 30px;
+    width: 50%;
+    font-size: 3.5rem;
+    margin: auto;
+}
+
+.cta-btn {
+    margin: 10px;
+}
+
+/* Footer Section */
+#footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-link {
+    color: black;
+    padding: 5px;
+}
+
+.copyright-txt {
+    font-size: 75%;
+    color: grey;
 }
